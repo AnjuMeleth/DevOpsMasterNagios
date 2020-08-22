@@ -2,3 +2,9 @@ sudo apt-get update
 sudo apt-get install nagios-nrpe-server nagios-plugins
 sudo vi /etc/nagios/nrpe.cfg
 sudo /etc/init.d/nagios-nrpe-server restart
+sudo cp ../objects/localhost.cfg linux1.cfg
+sudo vi linux1.cfg
+sudo vi nagios.cfg
+sudo service apache2 restart
+sudo service nagios restart
+

@@ -1,0 +1,7 @@
+# on monitored server
+sudo apt-get install docker.io
+sudo docker run -d -p 8085:8080 anjurose/chefapp
+
+# Nagios server
+/usr/local/nagios/libexec/check_http -I <ipaddress> -p 8085 -u http://<ipaddress>:8085
+

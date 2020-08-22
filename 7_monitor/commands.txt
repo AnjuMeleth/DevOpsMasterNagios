@@ -1,0 +1,3 @@
+sudo vi linux1.cfg
+sudo service apache2 restart
+sudo service nagios restart

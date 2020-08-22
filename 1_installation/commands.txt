@@ -1,0 +1,6 @@
+git clone https://github.com/AnjuMeleth/DevOpsMasterNagios.git
+cd DevOpsMasterNagios/
+cd 1_installation/
+sh install_nagios.sh
+
+
